@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap'); */ */
 /* 
 body{
     font-family: 'Climate Crisis', cursive;
@@ -26,16 +26,14 @@ p{
     background-color: yellow;
     border: 2px solid red;
     /* border-radius: 20px; */
-    border-top-left-radius:20px ;
     /* padding: top-bottom left-right ; */
-    padding: 0px 0 0px 40px;
+    /* padding: 0px 0 0px 40px; */
     /* padding:top right bottom left ; */
-    text-align: justify;
-    text-shadow: 0px 30px 5px gray;
+    /* text-align: justify;
+    text-shadow: 0px 30px 5px gray; */
     /* text-shadow: x y blur color  */
 
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-}
 
 /* div p{
     color: yellow;
@@ -45,12 +43,14 @@ div p.para{
     font-size: 50px;
 } */
 
-body{
+.bgimg{
 
-    background-image:url(https://t3.ftcdn.net/jpg/02/81/08/66/360_F_281086622_du9alt1izWGoVgd8hSVceeQGDehpk6hD.jpg);
+    background-size: cover;
+   background-image: url('https://t3.ftcdn.net/jpg/02/81/08/66/360_F_281086622_du9alt1izWGoVgd8hSVceeQGDehpk6hD.jpg');
 }
 
 
+/* 
 
 span{
     color: #fff;
@@ -59,8 +59,7 @@ span{
 
     /* margin: 50px; */
 
-} 
-
+/* 
 .copyrights{
     background-color: #000;
     color: #fff;
@@ -70,5 +69,4 @@ span{
 
 span:hover{
     font-size: 40px;
-    background-color: yellowgreen;
-}
+    background-color: yellowgreen;}
