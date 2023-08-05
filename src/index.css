@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titlefont{
+font-family: cursive;
+font-size:5vmax;
+}
+
+body{
+  background-image: url(./assets/todo+.svg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
