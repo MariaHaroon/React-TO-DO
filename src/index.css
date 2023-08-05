@@ -9,8 +9,8 @@ font-family: cursive;
 font-size:5vmax;
 }
 
-body{
-  background-image: url(./assets/todo+.svg) ;
+.image{
   background-repeat: no-repeat;
   background-size: cover;
+  float: right;
 }

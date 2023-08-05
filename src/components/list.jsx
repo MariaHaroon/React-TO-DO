@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function list() {
+
+function List() {
+    const [item, setitem] = useState((""));
+    // const [todolist, settodolist] = useState([]);
+
+    const add = () => {
+        setitem(...item,e)
+    }
+
     return (
         <div>
-            <div>
-                <input type="button" value="" />
-                <button >
-                    ToDo
-                </button>
-            </div>
+            <input value={item} onChange={(e) => setitem(e.target.value)} />
+            <button onClick={{ add }}>
+                Add Task
+            </button>
         </div>
     )
 }
 
-export default list
+export default List
