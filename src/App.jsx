@@ -4,13 +4,9 @@ import List from './components/List'
 
 function App() {
   return (
-    <>
-      <div className='titlefont'>
-        My To-Do List
-      </div>
+    <div>
       <List />
-    </>
-
+    </div>
 
   )
 }
