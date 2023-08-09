@@ -6,8 +6,9 @@
     font-family: cursive;
 }
 
-body{
+body {
     background-color: #333;
+    margin: 0; /* Reset default margin */
   }
 
 .titlefont {

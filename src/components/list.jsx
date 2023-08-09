@@ -20,7 +20,7 @@ function List(props) {
             <li className='listitem'>
                 {props.item}
                 <span className='icons'>
-                    <i className="fa-solid fa-trash"
+                    <i className="fa fa-trash"
                         //    className="fa-solid fa-trash-can icon-delete"
                         onClick={e => {
                             props.deleteitem(props.index)
