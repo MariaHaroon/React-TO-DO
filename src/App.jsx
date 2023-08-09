@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ToDo from './components/ToDo'
-import List from './components/List';
+import List from './components/list';
 import "./App.css"
 
 
